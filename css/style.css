@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --lightblack: #282828;
+  --black: #000000;
+  --trasparent-black: #080b12;
+  --darkblue: #141922;
+}
