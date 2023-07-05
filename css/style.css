@@ -80,11 +80,9 @@ img {
 
 #player {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-
-#player .col {
-  width: calc(100% / 3);
+  padding: 0 1rem;
 }
 
 #player > * {
@@ -100,6 +98,21 @@ img {
 #player .list-left-footer .card-music {
   width: 50px;
   aspect-ratio: 1;
+}
+
+#player .col-center {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+#player .list-center-up-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* |RESPONSIVE| */
