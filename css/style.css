@@ -9,6 +9,8 @@
   --black: #000000;
   --trasparent-black: #080b12;
   --darkblue: #141922;
+  --navbar-big: 300px;
+  --navbar-small: 100px;
 }
 
 /* |GENERALS| */
@@ -30,7 +32,7 @@ body {
 }
 
 #navbar {
-  width: 300px;
+  width: var(--navbar-big);
   height: 100%;
   background-color: var(--black);
 }
@@ -52,3 +54,17 @@ body {
 }
 
 /* |SECTIONS| */
+
+/* |RESPONSIVE| */
+
+@media screen and (max-width: 992px) {
+  /* *TOP CONTENT */
+
+  #navbar {
+    width: var(--navbar-small);
+  }
+
+  #main-content {
+    width: calc(100% - var(--navbar-small));
+  }
+}
