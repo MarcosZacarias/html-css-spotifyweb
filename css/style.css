@@ -15,6 +15,16 @@
   --player-height: 100px;
 }
 
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* |GENERALS| */
 
 body {
@@ -24,11 +34,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-ul {
-  list-style: none;
-  width: 100%;
 }
 
 /* |UTILS| */
