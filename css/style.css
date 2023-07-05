@@ -91,7 +91,13 @@ img {
   height: 50px;
 }
 
-#player .card-music {
+.list-left-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#player .list-left-footer .card-music {
   width: 50px;
   aspect-ratio: 1;
 }
