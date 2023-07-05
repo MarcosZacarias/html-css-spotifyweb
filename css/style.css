@@ -38,7 +38,7 @@ body {
 }
 
 #main-content {
-  width: calc(100% - 300px);
+  width: calc(100% - var(--navbar-big));
 }
 
 #header {
