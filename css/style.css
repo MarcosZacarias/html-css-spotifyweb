@@ -10,3 +10,45 @@
   --trasparent-black: #080b12;
   --darkblue: #141922;
 }
+
+/* |GENERALS| */
+
+body {
+  color: white;
+  background-color: var(--darkblue);
+}
+
+/* |UTILS| */
+
+/* |LAYOUT| */
+
+/* *TOP CONTENT */
+
+#top-content {
+  height: calc(100vh - 100px);
+  display: flex;
+}
+
+#navbar {
+  width: 300px;
+  height: 100%;
+  background-color: var(--black);
+}
+
+#main-content {
+  width: calc(100% - 300px);
+}
+
+#header {
+  height: 100px;
+  background-color: var(--black);
+}
+
+/* * FOOTER */
+
+#player {
+  height: 100px;
+  background-color: var(--lightblack);
+}
+
+/* |SECTIONS| */
