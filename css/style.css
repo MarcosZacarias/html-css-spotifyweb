@@ -30,6 +30,7 @@ a {
 body {
   color: white;
   background-color: var(--darkblue);
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
