@@ -22,7 +22,20 @@ body {
   background-color: var(--darkblue);
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
 /* |UTILS| */
+
+.col {
+  padding: 0 1rem;
+}
 
 /* |LAYOUT| */
 
@@ -56,6 +69,26 @@ body {
 }
 
 /* |SECTIONS| */
+
+/* *FOOTER */
+
+#player {
+  display: flex;
+  align-items: center;
+}
+
+#player .col {
+  width: calc(100% / 3);
+}
+
+#player > * {
+  height: 50px;
+}
+
+#player .card-music {
+  width: 50px;
+  aspect-ratio: 1;
+}
 
 /* |RESPONSIVE| */
 
