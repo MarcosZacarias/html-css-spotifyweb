@@ -95,15 +95,22 @@ img {
 
 #navbar .navbar-main {
   display: flex;
-  gap: 0.5rem;
-  padding-bottom: 1.5rem;
-}
-
-#navbar .navbar-main .navbar-icon,
-#navbar .navbar-main .navbar-title {
-  display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+#navbar .navbar-main-title {
+  display: flex;
+  gap: 0.2rem;
+}
+
+#navbar .navbar-main-title > * {
+  display: inline-block;
+}
+
+#navbar .navbar-main-title > *:first-child {
+  width: 30px;
 }
 
 #navbar .navbar-playlist {
