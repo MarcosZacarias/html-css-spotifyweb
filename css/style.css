@@ -87,6 +87,8 @@ img {
 #player [class^="col"] {
   display: flex;
   align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .left-footer,
