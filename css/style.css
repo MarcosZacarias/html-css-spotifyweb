@@ -222,7 +222,7 @@ img {
 
 #album-music {
   overflow: auto;
-  height: calc(100% - var(--player-height));
+  height: 100%;
 }
 
 /* *FOOTER */
