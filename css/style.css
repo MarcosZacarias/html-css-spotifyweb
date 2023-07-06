@@ -537,7 +537,7 @@ img {
 }
 
 #player .line-volume:hover .volume {
-  background-color: #b6ff31;
+  background-color: lightblue;
   position: relative;
 }
 
