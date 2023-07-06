@@ -9,8 +9,7 @@
   --black: #000000;
   --trasparent-black: #080b12;
   --darkblue: #141922;
-  --navbar-big: 300px;
-  --navbar-small: 100px;
+  --navbar-width: 300px;
   --header-height: 100px;
   --player-height: 100px;
 }
@@ -53,13 +52,13 @@ img {
 }
 
 #navbar {
-  width: var(--navbar-big);
+  width: var(--navbar-width);
   height: 100%;
   background-color: var(--black);
 }
 
 #main-content {
-  width: calc(100% - var(--navbar-big));
+  width: calc(100% - var(--navbar-width));
 }
 
 #header {
@@ -150,14 +149,10 @@ img {
 
 /* |RESPONSIVE| */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
   /* *TOP CONTENT */
 
-  #navbar {
-    width: var(--navbar-small);
-  }
-
-  #main-content {
-    width: calc(100% - var(--navbar-small));
+  :root {
+    --navbar-width: 50px;
   }
 }
