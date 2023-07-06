@@ -10,6 +10,7 @@
   --black: #000000;
   --trasparent-black: rgba(0, 0, 0, 0.5);
   --darkblue: #141922;
+  --base-spacing-grid: 1rem;
   --navbar-width: 300px;
   --header-height: 100px;
   --player-height: 100px;
@@ -39,8 +40,19 @@ img {
 
 /* |UTILS| */
 
-.col {
-  padding: 0 1rem;
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--base-spacing-grid);
+}
+
+.container .row {
+  margin-left: calc(var(--base-spacing-grid) * -1);
+  margin-right: calc(var(--base-spacing-grid) * -1);
+}
+
+.container .row .col {
+  padding: var(--base-spacing-grid);
 }
 
 .text-color-hidden {
