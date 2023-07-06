@@ -497,6 +497,24 @@ img {
   align-items: center;
 }
 
+/* * FOOTER PLAYER */
+
+#player .col-left > .left-footer > *:hover,
+#player .col-center > .center-up-footer > *:hover,
+#player .col-center > .center-down-footer > *:hover,
+#player .col-right > .right-footer > *:hover {
+  cursor: pointer;
+}
+
+#player .left-footer .name-song-subtitle:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#player .left-footer .icon-left-footer > *:hover {
+  color: white;
+}
+
 /* |RESPONSIVE| */
 
 @media screen and (max-width: 576px) {
