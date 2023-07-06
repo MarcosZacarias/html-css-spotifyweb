@@ -318,6 +318,17 @@ img {
   font-weight: 700;
 }
 
+#album-music .albums .populars .subtitle-album {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+#album-music .albums .populars figure {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 /* *FOOTER */
 
 #player {
