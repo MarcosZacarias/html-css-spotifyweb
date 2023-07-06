@@ -423,6 +423,12 @@ img {
 /* *Albums */
 
 /* List category */
+
+#album-music .list-category > li:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
 #album-music .list-category .category-hover:hover:after {
   display: block;
   content: "";
