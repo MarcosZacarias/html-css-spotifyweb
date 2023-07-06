@@ -288,9 +288,14 @@ img {
   padding: 0.5rem 1rem;
 }
 
-.albums .container .row {
+#album-music .albums .container .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+#album-music .albums .card-album {
+  padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 #album-music .albums figcaption {
@@ -298,7 +303,7 @@ img {
   padding: 0.5rem;
 }
 
-#album-music .albums figcaption:last-child {
+#album-music .albums figcaption > *:last-child {
   font-size: 0.75rem;
   font-weight: 700;
 }
