@@ -63,7 +63,7 @@ img {
 
 #header {
   height: var(--header-height);
-  background-color: var(--black);
+  background-color: var(--trasparent-black);
 }
 
 /* * FOOTER */
