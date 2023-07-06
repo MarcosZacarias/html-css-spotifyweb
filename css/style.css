@@ -212,6 +212,19 @@ img {
   display: none;
 }
 
+/* *HEADER */
+
+#header {
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+#album-music {
+  overflow: auto;
+  height: calc(100% - var(--player-height));
+}
+
 /* *FOOTER */
 
 #player {
