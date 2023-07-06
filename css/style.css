@@ -10,7 +10,7 @@
   --black: #000000;
   --trasparent-black: rgba(0, 0, 0, 0.5);
   --darkblue: #141922;
-  --base-spacing-grid: 1rem;
+  --base-spacing-grid: 0.5rem;
   --navbar-width: 300px;
   --header-height: 100px;
   --player-height: 100px;
