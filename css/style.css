@@ -261,6 +261,7 @@ img {
 
 #album-music .list-main .list-category {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
