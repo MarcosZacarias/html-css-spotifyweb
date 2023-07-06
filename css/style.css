@@ -274,17 +274,6 @@ img {
   cursor: pointer;
 }
 
-#album-music .list-category .category-hover:hover:after {
-  display: block;
-  content: "";
-  width: calc(100% / 3);
-  background-color: #b6ff31;
-  height: 2px;
-  position: absolute;
-  left: calc(100% / 3);
-  bottom: -2px;
-}
-
 #album-music .albums {
   padding: 0.5rem;
 }
@@ -420,6 +409,43 @@ img {
   height: 2px;
   width: 25%;
   background-color: white;
+}
+
+/* |Effect Hover| */
+
+/* *Albums */
+
+/* List category */
+#album-music .list-category .category-hover:hover:after {
+  display: block;
+  content: "";
+  width: calc(100% / 3);
+  background-color: #b6ff31;
+  height: 2px;
+  position: absolute;
+  left: calc(100% / 3);
+  bottom: -2px;
+}
+
+/* Card Album */
+#album-music .albums .card-album > figure {
+  position: relative;
+}
+
+.card-album-hover {
+  display: none;
+}
+
+#album-music .albums .card-album:hover > figure > .card-album-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: var(--trasparent-black);
+  top: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 /* |RESPONSIVE| */
