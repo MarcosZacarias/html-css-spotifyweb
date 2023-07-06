@@ -429,6 +429,17 @@ img {
   background-color: white;
 }
 
+/* NAVBAR FOOTER */
+
+#navbar .navbar-footer .install-app:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#navbar .navbar-footer .current-singer:hover {
+  cursor: pointer;
+}
+
 /* *HEADER */
 
 #header .btn-header:hover {
