@@ -130,8 +130,36 @@ img {
 }
 
 #navbar .navbar-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   position: absolute;
   bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+#navbar .install-app {
+  font-size: small;
+  position: relative;
+}
+
+#navbar .install-app::after {
+  display: block;
+  content: "";
+  width: calc(var(--navbar-width) - 2rem);
+  background-color: #a2a2a2;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+}
+
+#navbar .current-singer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 /* *FOOTER */
