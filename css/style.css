@@ -320,7 +320,16 @@ img {
   padding-right: 0.5rem;
 }
 
-.left-footer,
+.left-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#player .left-footer .icon-left-footer > * {
+  padding-right: 1rem;
+}
+
 .right-footer {
   display: flex;
   align-items: center;
