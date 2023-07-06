@@ -144,7 +144,7 @@ img {
 #player .line-music .time-music {
   height: 2px;
   width: 25%;
-  background-color: #c1c1c1;
+  background-color: white;
 }
 
 #player .col-line-volume {
@@ -162,7 +162,7 @@ img {
 #player .line-volume .volume {
   height: 2px;
   width: 25%;
-  background-color: #c1c1c1;
+  background-color: white;
 }
 
 /* |RESPONSIVE| */
