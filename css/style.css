@@ -5,6 +5,7 @@
 }
 
 :root {
+  --text-color-hidden: #6c6c6c;
   --lightblack: #282828;
   --black: #000000;
   --trasparent-black: #080b12;
@@ -40,6 +41,10 @@ img {
 
 .col {
   padding: 0 1rem;
+}
+
+.text-color-hidden {
+  color: var(--text-color-hidden);
 }
 
 /* |LAYOUT| */
