@@ -103,40 +103,48 @@ img {
 }
 
 #player .col-center {
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   align-self: flex-start;
   flex-grow: 1;
 }
 
-#player .list-center-up-footer,
-#player .list-center-down-footer {
+#player .center-up-footer,
+#player .center-down-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-#player .list-center-up-footer {
+#player .center-up-footer {
   font-size: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#player .list-center-down-footer {
+#player .center-down-footer {
+  width: 100%;
   font-size: 0.75rem;
   padding: 0;
 }
 
+#player .col-line-music {
+  flex-grow: 1;
+  width: 100%;
+  cursor: pointer;
+}
+
 #player .line-music {
   height: 2px;
-  width: 400px;
+  width: 100%;
   background-color: #5a5a5a;
 }
 
 #player .line-music .time-music {
   height: 2px;
-  width: 100px;
+  width: 25%;
   background-color: #c1c1c1;
 }
 
