@@ -238,6 +238,40 @@ img {
   cursor: pointer;
 }
 
+/* *MAIN */
+
+#album-music .list-main {
+  font-size: 0.7rem;
+  font-weight: 900;
+  margin: auto;
+  padding: 1rem 0.5rem;
+}
+
+#album-music .list-main .list-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #7b7e82;
+  position: relative;
+}
+
+#album-music .category-hover {
+  position: relative;
+  cursor: pointer;
+}
+
+#album-music .list-category .category-hover:hover:after {
+  display: block;
+  content: "";
+  width: calc(100% / 3);
+  background-color: #b6ff31;
+  height: 2px;
+  position: absolute;
+  left: calc(100% / 3);
+  bottom: -2px;
+}
+
 /* *FOOTER */
 
 #player {
