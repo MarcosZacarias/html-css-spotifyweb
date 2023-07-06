@@ -284,6 +284,10 @@ img {
   bottom: -2px;
 }
 
+#album-music .albums {
+  padding: 0.5rem 1rem;
+}
+
 /* *FOOTER */
 
 #player {
