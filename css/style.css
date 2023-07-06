@@ -288,19 +288,17 @@ img {
   padding: 0.5rem;
 }
 
+#album-music .albums .title-album {
+  padding-bottom: 1rem;
+}
+
 #album-music .albums .container .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-#album-music .albums .card-album {
-  padding-top: 1rem;
-  padding-top: 1rem;
-}
-
 #album-music .albums figcaption {
   text-align: center;
-  padding: 0.5rem;
 }
 
 #album-music .albums figcaption > *:last-child {
