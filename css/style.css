@@ -90,7 +90,7 @@ img {
 #navbar .navbar-main {
   display: flex;
   gap: 0.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 #navbar .navbar-main .navbar-icon,
@@ -98,6 +98,30 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+#navbar .navbar-playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#navbar .navbar-playlist .add-playlist {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#navbar .add-playlist .btn-add-playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  aspect-ratio: 1;
+  background-color: #a2a2a2;
+  color: var(--black);
 }
 
 /* *FOOTER */
