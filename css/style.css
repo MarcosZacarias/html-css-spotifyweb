@@ -293,6 +293,16 @@ img {
   flex-wrap: wrap;
 }
 
+#album-music .albums figcaption {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#album-music .albums figcaption:last-child {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 /* *FOOTER */
 
 #player {
