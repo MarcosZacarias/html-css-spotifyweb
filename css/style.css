@@ -135,21 +135,6 @@ img {
   position: relative;
 }
 
-#navbar .navbar-main-title:first-child {
-  color: white;
-}
-
-#navbar .navbar-main-title:first-child::before {
-  display: block;
-  content: "";
-  width: 5px;
-  background-color: #b6ff31;
-  height: 2rem;
-  position: absolute;
-  left: -1rem;
-  bottom: 0;
-}
-
 #navbar .navbar-main-title > * {
   display: inline-block;
 }
@@ -412,6 +397,25 @@ img {
 }
 
 /* |Effect Hover| */
+
+/* *NAVBAR */
+
+/* NAVBAR MAIN */
+#navbar .navbar-main-title:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#navbar .navbar-main-title:hover::before {
+  display: block;
+  content: "";
+  width: 5px;
+  background-color: #b6ff31;
+  height: 2rem;
+  position: absolute;
+  left: -1rem;
+  bottom: 0;
+}
 
 /* *HEADER */
 
