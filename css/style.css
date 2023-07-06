@@ -51,7 +51,7 @@ img {
   margin-right: calc(var(--base-spacing-grid) * -1);
 }
 
-.container .row .col {
+.container .row [class*="col"] {
   padding: var(--base-spacing-grid);
 }
 
@@ -286,6 +286,11 @@ img {
 
 #album-music .albums {
   padding: 0.5rem 1rem;
+}
+
+.albums .container .row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* *FOOTER */
