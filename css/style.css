@@ -192,6 +192,12 @@ img {
   font-size: 1.1rem;
 }
 
+/* *NAVBARSMALL */
+
+#navbar-small {
+  display: none;
+}
+
 /* *FOOTER */
 
 #player {
@@ -289,7 +295,39 @@ img {
 @media screen and (max-width: 576px) {
   /* *TOP CONTENT */
 
+  /* *NAVBAR  */
   :root {
     --navbar-width: 50px;
+  }
+
+  #navbar {
+    display: none;
+  }
+  /* *NAVBAR-SMALL  */
+  #navbar-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: var(--navbar-width);
+    height: 100%;
+    background-color: var(--black);
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+
+  #navbar-small .navbar-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.5rem;
+  }
+
+  #navbar-small .logo-small {
+    width: 40px;
+    aspect-ratio: 1;
   }
 }
