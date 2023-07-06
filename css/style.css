@@ -89,14 +89,14 @@ img {
   align-items: center;
 }
 
-.list-left-footer,
-.list-right-footer {
+.left-footer,
+.right-footer {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-#player .list-left-footer .card-music {
+#player .left-footer .card-music {
   width: 50px;
   aspect-ratio: 1;
 }
@@ -142,6 +142,24 @@ img {
 }
 
 #player .line-music .time-music {
+  height: 2px;
+  width: 25%;
+  background-color: #c1c1c1;
+}
+
+#player .col-line-volume {
+  flex-grow: 1;
+  width: 60px;
+  cursor: pointer;
+}
+
+#player .line-volume {
+  height: 2px;
+  width: 100%;
+  background-color: #5a5a5a;
+}
+
+#player .line-volume .volume {
   height: 2px;
   width: 25%;
   background-color: #c1c1c1;
