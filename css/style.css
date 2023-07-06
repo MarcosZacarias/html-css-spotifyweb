@@ -79,6 +79,7 @@ img {
 
 #navbar {
   padding: 0 1rem;
+  position: relative;
 }
 
 #navbar .logo {
@@ -126,6 +127,11 @@ img {
 
 #navbar .list-playlist > * {
   padding: 0.5rem 0;
+}
+
+#navbar .navbar-footer {
+  position: absolute;
+  bottom: 0;
 }
 
 /* *FOOTER */
