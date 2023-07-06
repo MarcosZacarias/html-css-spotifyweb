@@ -288,21 +288,33 @@ img {
   padding: 0.5rem;
 }
 
-#album-music .albums .title-album {
-  padding-bottom: 1rem;
-}
-
 #album-music .albums .container .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-#album-music .albums figcaption {
-  text-align: center;
+#album-music .albums > * {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-#album-music .albums figcaption > *:last-child {
+#album-music .albums figcaption {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+#album-music .albums .recently .title-album {
+  padding-bottom: 1rem;
+}
+
+#album-music .albums .recently figcaption > *:last-child {
   font-size: 0.75rem;
+  font-weight: 700;
+}
+
+#album-music .albums .for-you .subtitle-album {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   font-weight: 700;
 }
 
