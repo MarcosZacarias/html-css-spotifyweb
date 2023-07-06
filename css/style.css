@@ -124,6 +124,10 @@ img {
   color: var(--black);
 }
 
+#navbar .list-playlist > * {
+  padding: 0.5rem 0;
+}
+
 /* *FOOTER */
 
 #player {
