@@ -75,6 +75,31 @@ img {
 
 /* |SECTIONS| */
 
+/* *NAVBAR */
+
+#navbar {
+  padding: 0 1rem;
+}
+
+#navbar .logo {
+  display: flex;
+  width: 200px;
+  height: var(--header-height);
+}
+
+#navbar .navbar-main {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+#navbar .navbar-main .navbar-icon,
+#navbar .navbar-main .navbar-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 /* *FOOTER */
 
 #player {
