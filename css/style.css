@@ -105,6 +105,10 @@ img {
   gap: 0.2rem;
 }
 
+#navbar .navbar-main-title:first-child {
+  color: white;
+}
+
 #navbar .navbar-main-title > * {
   display: inline-block;
 }
