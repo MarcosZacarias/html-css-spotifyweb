@@ -515,6 +515,44 @@ img {
   color: white;
 }
 
+#player .col-center > .center-up-footer > *:hover {
+  transform: scale(1.2);
+}
+
+#player .line-music:hover .time-music {
+  background-color: #b6ff31;
+  position: relative;
+}
+
+#player .line-music:hover .time-music::before {
+  display: block;
+  content: "";
+  height: 1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 100%;
+  bottom: -0.5rem;
+}
+
+#player .line-volume:hover .volume {
+  background-color: #b6ff31;
+  position: relative;
+}
+
+#player .line-volume:hover .volume::before {
+  display: block;
+  content: "";
+  height: 0.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 100%;
+  bottom: -0.25rem;
+}
+
 /* |RESPONSIVE| */
 
 @media screen and (max-width: 576px) {
