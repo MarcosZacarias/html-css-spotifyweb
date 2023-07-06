@@ -417,6 +417,18 @@ img {
   bottom: 0;
 }
 
+/* NAVBAR PLAYLIST */
+
+#navbar .add-playlist:hover,
+#navbar .list-playlist > *:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#navbar .add-playlist:hover > .btn-add-playlist {
+  background-color: white;
+}
+
 /* *HEADER */
 
 #header .btn-header:hover {
