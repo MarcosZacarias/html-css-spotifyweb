@@ -69,6 +69,14 @@ img {
 #header {
   height: var(--header-height);
   background-color: var(--trasparent-black);
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+#album-music {
+  overflow: auto;
+  height: 100%;
 }
 
 /* * FOOTER */
@@ -213,17 +221,6 @@ img {
 }
 
 /* *HEADER */
-
-#header {
-  position: sticky;
-  left: 0;
-  top: 0;
-}
-
-#album-music {
-  overflow: auto;
-  height: 100%;
-}
 
 /* *FOOTER */
 
