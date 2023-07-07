@@ -169,7 +169,7 @@ img {
 
 #navbar .list-playlist {
   flex-shrink: 1;
-  min-height: 2rem;
+  min-height: 6rem;
   overflow-y: auto;
 }
 
