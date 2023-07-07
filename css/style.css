@@ -338,6 +338,7 @@ img {
 
 #player .left-footer .card-music {
   width: 50px;
+  min-width: 50px;
   aspect-ratio: 1;
 }
 
