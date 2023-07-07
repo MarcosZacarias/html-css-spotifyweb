@@ -458,6 +458,14 @@ img {
   cursor: pointer;
 }
 
+/* NAVBAR SMALL */
+
+#navbar-small > *:hover,
+#navbar-small > .navbar-footer *:hover {
+  color: white;
+  cursor: pointer;
+}
+
 /* *HEADER */
 
 #header .btn-header:hover {
@@ -591,7 +599,6 @@ img {
     height: 100%;
     background-color: var(--black);
     padding: 0.5rem 0;
-    position: relative;
   }
 
   #navbar-small .navbar-footer {
@@ -599,14 +606,27 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    position: relative;
-    bottom: 0;
+    gap: 0.5rem;
   }
 
-  #navbar-small .logo-small {
-    width: 40px;
+  #navbar-small .logo-small,
+  #navbar-small .icon-small-bar {
+    width: 30px;
     aspect-ratio: 1;
+  }
+
+  #navbar-small .icon-download {
+    width: 25px;
+    aspect-ratio: 1;
+  }
+
+  #navbar-small .current-singer {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+    background-color: gray;
   }
 
   /* *PLAYER */
