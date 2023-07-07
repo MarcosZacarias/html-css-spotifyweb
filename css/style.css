@@ -560,6 +560,7 @@ img {
 
 /* |RESPONSIVE| */
 
+/* *SCREEN EXTRA SMALL */
 @media screen and (max-width: 576px) {
   /* *TOP CONTENT */
 
@@ -598,5 +599,17 @@ img {
   #navbar-small .logo-small {
     width: 40px;
     aspect-ratio: 1;
+  }
+
+  /* *PLAYER */
+
+  #player .left-footer .icon-left-footer > * {
+    padding: 0;
+  }
+
+  #player .col-right .right-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
 }
