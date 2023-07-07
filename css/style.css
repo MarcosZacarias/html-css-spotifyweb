@@ -190,6 +190,8 @@ img {
 #navbar .install-app {
   font-size: small;
   position: relative;
+  display: flex;
+  gap: 0.5rem;
 }
 
 #navbar .install-app::after {
@@ -201,6 +203,10 @@ img {
   position: absolute;
   left: 0;
   bottom: -50%;
+}
+
+#navbar .install-app > .icon-download {
+  width: 20px;
 }
 
 #navbar .current-singer {
