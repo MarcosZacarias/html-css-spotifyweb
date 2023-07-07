@@ -287,7 +287,7 @@ img {
   padding-bottom: 1rem;
 }
 
-#album-music .albums figcaption {
+#album-music .albums .card-album-text {
   text-align: center;
   padding-top: 0.5rem;
 }
@@ -296,7 +296,7 @@ img {
   padding-bottom: 1rem;
 }
 
-#album-music .albums .recently figcaption > *:last-child {
+#album-music .albums .recently .card-album-text > *:last-child {
   font-size: 0.75rem;
   font-weight: 700;
 }
@@ -313,7 +313,7 @@ img {
   font-weight: 700;
 }
 
-#album-music .albums .populars figure {
+#album-music .albums .populars .card-album-media {
   border-radius: 50%;
   overflow: hidden;
 }
@@ -500,7 +500,7 @@ img {
 }
 
 /* Card Album */
-#album-music .albums .card-album > figure {
+#album-music .albums .card-album > .card-album-media {
   position: relative;
 }
 
@@ -512,7 +512,7 @@ img {
   display: none;
 }
 
-#album-music .albums .card-album:hover > figure > .card-album-hover {
+#album-music .albums .card-album:hover > .card-album-media > .card-album-hover {
   display: flex;
   position: absolute;
   width: 100%;
