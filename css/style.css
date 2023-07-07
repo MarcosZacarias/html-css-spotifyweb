@@ -481,6 +481,10 @@ img {
   position: relative;
 }
 
+.card-album:hover {
+  cursor: pointer;
+}
+
 .card-album-hover {
   display: none;
 }
